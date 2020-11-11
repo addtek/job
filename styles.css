@@ -1,0 +1,195 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.bg-teal {
+    background-color: teal;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 80%;
+    padding: 8px 15px;
+}
+
+.btn-rounded {
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.main {
+    margin: 60px 0px;
+}
+
+nav {
+    padding: 0px 40px;
+    background-color: #28bbbb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a.active {
+    background-color: #1d7979;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #1d7979;
+    color: #fff;
+}
+
+.logo {
+    width: 120px;
+}
+
+.container {
+ 
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.job_session {
+ 
+    color: black;
+  
+}
+
+.about {
+    width: 100%;
+}
+
+.about h2,
+.about p {
+   
+    margin: 1rem 4rem;
+}
+
+.info_list {
+ 
+    display: flex;
+
+    justify-content: flex-start;
+    width: 100%;
+  
+    flex-flow: row wrap;
+
+}
+
+.job-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    min-height: 320px;
+    border-radius: 10px;
+    max-width: 260px;
+    min-width: 180px;
+    width: 100%;
+    flex: 1 1 20%;
+    margin: 12px;
+    transform: scale(1);
+    transition: transform 0.2s;
+}
+
+.job-card:hover {
+    transform: scale(1.02);
+}
+
+.info_img {
+    width: 100px;
+    margin-left: 2rem;
+    height: 50px;
+}
+
+.job_info {
+
+    width: 100%;
+    font-size: 15px;
+    margin-left: 2rem;
+}
+
+.job_info h3 {
+    font-weight: bolder;
+    width: 80%;
+
+}
+
+.job_info h4 {
+    font-weight: 100;
+}
+
+.details {
+    font-weight: 300;
+}
+
+.job-card .job-card-footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p span {
+    color: teal;
+    font-weight: lighter;
+    padding-left: 2px;
+}
+
+.details li {
+  
+    font-size: 10px;
+} */
+
+
+
+nav .navbar-brand .logo {
+    width: 120px;
+
+}
+
+.com_logo{
+    max-width: 100px;
+    display: block;
+    height: 50px;
+}
+
+.about{
+    padding-top: 2rem;
+}
